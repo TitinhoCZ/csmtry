@@ -10,17 +10,10 @@ package csmtry2;
  * @author Benny
  */
 public class TEAM {
-    String NameOfTeam;
-    String National;
-    String Ligue;  
+    String name;
     
-    void addplayer() {
+    public TEAM(String newName){
+          name = newName;
     }
-    void delplayer() {
-    }
-    void showinfo() {
-    }
-    void choose(String name){
-        System.out.println("Zvolil sis "+ name);
-    }
+    
 }
