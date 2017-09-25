@@ -14,10 +14,13 @@ public class TEAM {
     String National;
     String Ligue;  
     
-    void AddPlayer() {
+    void addplayer() {
     }
-    void DelPlayer() {
+    void delplayer() {
     }
-    void ShowInfo() {
+    void showinfo() {
+    }
+    void choose(String name){
+        System.out.println("Zvolil sis "+ name);
     }
 }
