@@ -10,6 +10,14 @@ package csmtry2;
  * @author Benny
  */
 public class TEAM {
+    String NameOfTeam;
+    String National;
+    String Ligue;  
     
-    
+    void AddPlayer() {
+    }
+    void DelPlayer() {
+    }
+    void ShowInfo() {
+    }
 }
