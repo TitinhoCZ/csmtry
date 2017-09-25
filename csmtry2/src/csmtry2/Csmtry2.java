@@ -5,19 +5,36 @@
  */
 package csmtry2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Titous
  */
 public class Csmtry2 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        System.out.println("prdel");
-        System.out.println("Hovinko");
-        
-    }
     
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        
+        String mainMenu = ("Select a choice from the menu: \n" 
+            + "1. Select Liverpool \n" 
+            + "2. Select Chelsea \n"
+            + "3. Exit");
+        int choice = 0;
+        
+        do {
+            System.out.println(mainMenu);
+            choice = scan.nextInt();
+            switch (choice) {
+                case 1 : 
+                    System.out.println("Zvolil sis Liverpool.");
+                    break;
+                case 2 :
+                    System.out.println("Zvolil sis Chelsea.");
+                    break;   
+            }   
+        }while (choice != 3);
+    }
 }
