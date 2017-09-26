@@ -40,7 +40,6 @@ public class nn1 extends javax.swing.JFrame {
 
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
@@ -65,14 +64,6 @@ public class nn1 extends javax.swing.JFrame {
         jButton3.setBorder(null);
         jButton3.setBorderPainted(false);
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 860, 380, 90));
-
-        jButton5.setBackground(new java.awt.Color(0, 0, 0));
-        jButton5.setFont(new java.awt.Font("Tahoma", 3, 60)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(240, 240, 240));
-        jButton5.setText("New Game");
-        jButton5.setBorder(null);
-        jButton5.setBorderPainted(false);
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 750, 380, 90));
 
         jLabel1.setBackground(new java.awt.Color(204, 153, 0));
         jLabel1.setForeground(new java.awt.Color(240, 240, 240));
@@ -123,7 +114,6 @@ public class nn1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
