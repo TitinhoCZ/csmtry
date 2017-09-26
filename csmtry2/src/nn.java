@@ -59,7 +59,7 @@ public class nn extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(204, 153, 0));
         jLabel1.setForeground(new java.awt.Color(240, 240, 240));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Benny\\Downloads\\image¨1.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/csmtry2/image¨1.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1965, -1));
 
         pack();
